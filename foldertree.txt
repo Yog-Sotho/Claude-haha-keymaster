@@ -1,0 +1,12 @@
+claude-haha-keymaster/
+├── package.json
+├── tsconfig.json
+├── .env.example
+├── src/
+│   ├── index.ts               # Entry point, starts proxy server
+│   ├── types.ts               # Shared TypeScript interfaces
+│   ├── state-manager.ts       # Encrypted SQLite storage, key lifecycle
+│   ├── provider-registry.ts   # Nvidia/OpenRouter configs, request translation
+│   ├── key-rotator.ts         # Core rotation logic, failure handling
+│   └── proxy-handler.ts       # HTTP proxy, request forwarding, admin API
+└── README.md
