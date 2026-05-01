@@ -2,10 +2,10 @@
 ## Military-Grade API Key & SOCKS Proxy Rotator for Claude Code Haha
 
 [![Bun Version](https://img.shields.io/badge/Bun-1.0+-fbf0df?logo=bun)](https://bun.sh)
-[![License: Educational Use](https://img.shields.io/badge/License-Educational_Use-lightgrey)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)]()
 [![Last Updated](https://img.shields.io/badge/Last_Updated-2026--05--20-brightgreen)]()
 
-> ⚠️ **DISCLAIMER**: This project is for educational and research purposes only. It is designed to work with the community-maintained `claude-code-haha` fork of the accidentally leaked Anthropic Claude Code source. We do not endorse or encourage the use of leaked proprietary code. Respect all applicable licenses and terms of service for Anthropic, Nvidia, OpenRouter, and all proxy providers.
+> ⚠️ **DISCLAIMER**: This project is for educational and research purposes only. It is designed to work with the community-maintained `claude-code-haha` fork of the accidentally leaked Anthropic Claude Code source. I do not endorse or encourage the use of leaked proprietary code. Respect all applicable licenses and terms of service for Anthropic, Nvidia, OpenRouter, and all proxy providers.
 
 ---
 
@@ -247,7 +247,7 @@ All proxies are validated via TCP connect (5-second timeout) before being added 
 ---
 
 ## 🧪 Testing & Linting
-The project includes full ESLint configuration and 15+ unit tests covering all core modules.
+The project includes full ESLint configuration and tests covering all core modules.
 
 ```bash
 # Run linter (check for errors)
@@ -293,7 +293,9 @@ Test coverage includes:
 ---
 
 ## 📄 License
-This project is released for **educational and research use only**. It is original work independent of Anthropic's proprietary Claude Code codebase.
+
+MIT
+It is original work independent of Anthropic's proprietary Claude Code codebase.
 
 - Do not use this tool with leaked proprietary code in violation of Anthropic's Terms of Service
 - Respect Nvidia NIM and OpenRouter free tier rate limits
@@ -308,4 +310,4 @@ The Keymaster proxy code is licensed under MIT (see LICENSE file). The `claude-c
 - The `claude-code-haha` community for maintaining the runnable Claude Code fork
 - Anthropic for creating the original Claude Code tool (despite the accidental leak)
 
-Yog-Sotho
+Yog-Sotho ❤️
